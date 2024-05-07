@@ -23,7 +23,7 @@ The NN architecture, training and inference flow is followed from the following 
 1. DS-CNN with exact hyperparameters to be decided upon experiments and iterations
 2. Parallel Convolution Execution unit to calculate 'n' 2D Convolutions in parallel
 3. FSM to serialize 'n' parallel convolution blocks over all features
-4. INT8 arithmetic
+4. 16 kHz sampling rate with INT8 arithmetic
 5. Wishbone bus to the Caravel SoC
 6. The MFC Coefficients will be streamed from Caravel SoC
 
